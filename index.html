@@ -36,6 +36,12 @@
             <span class="handName">Optimize Hand (slow)</span>
           </div>
         </div>
+        <div class="input-group">
+          <label>Hands Remaining:</label>
+          <button onclick="adjustValue('hands', -1)">-</button>
+          <span id="hands-count">0</span>
+          <button onclick="adjustValue('hands', 1)">+</button>
+        </div>
         <div id="jokerArea"></div>
         <span class='limitText'><span id='jokerLimit'>0</span>/7</span><br>
         <div id="scoreOfPlay" style="font-size: 2em">
